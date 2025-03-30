@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบคิดเงินร้านคาราโอเกะ</title>   
+</head>
+<body>        
+        <table width="400" border="2" bordercolor="#000000">
+            <tr><td colspan="2" id="karaokae">ร้านคาราโอเกะ</td></tr>
+            <tr>
+                <td>
+                    <br>&nbsp;&nbsp;<input type="radio" name="c1" id="nohave" value="ไม่มีบัตร">ไม่มีบัตรนักศึกษา <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชั่วโมงละ 120 บาท จำนวน
+                    <input type="text" size="2" id="txtqty1"> ชั่วโมง <br>
+                    &nbsp;&nbsp;<input type="radio" name="c1" id="have" value="มีบัตร">มีบัตรนักศึกษา <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ชั่วโมงละ 80 บาท จำนวน
+                    <input type="text" size="2" id="txtqty2"> ชั่วโมง <br><br>
+                </td>
+            </tr>
+        </table><br>
+        <button>คิดเงิน</button><br>    
+    รวมเป็นเงินทั้งสิ้น = <input type="text" id="txtTotal" readonly> บาท
+</body>
+</html>
